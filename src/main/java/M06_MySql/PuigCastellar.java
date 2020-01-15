@@ -15,34 +15,32 @@ public class PuigCastellar {
 
     public PuigCastellar() {
     }
-    public Connection getConnection( ) {
+    public Connection getConnection( ) throws SQLException {
 
 
-        String sDriver = "com.mysql.jdbc.Driver";
-        String sURL = "jdbc:mysql://localhost:3306/ElPuigCastellar";
+        // Funciona en clase.
+//        String sDriver = "com.mysql.cj.jdbc.Driver";
 
-        try {
-            Class.forName(sDriver).newInstance();
+        // Funciona en casa
+        //String sDriver = "com.mysql.jdbc.Driver";
+
+        String sURL = "jdbc:mysql://192.168.22.101:3306/ElPuigCastellar";
+
+
             connection = DriverManager.getConnection(sURL, "root", "badalona1965");
             System.out.println("BBDD Conectado");
 
 
 
-        }catch (SQLException | ClassNotFoundException e){
-            System.out.println("error");
 
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        }
         return connection;
+
 
     }
 
     public static void insertarAlumne(Connection connection) throws SQLException {
 
-        int id, edad;
+        int id; int edad = 38;
         String nom, cognoms, institut;
         Scanner sc = new Scanner(System.in);
 

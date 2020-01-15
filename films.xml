@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Films>
+    <Film produced="1997">
+        <Title>Airbag</Title>
+        <Director>Juanma Bajo Ulloa</Director>
+        <Country>Espanya</Country>
+    </Film>
+    <Film produced="1998">
+        <Title>El milagro de P. Tinto</Title>
+        <Director>Javier Fesser</Director>
+        <Country>Espanya</Country>
+    </Film>
+    <Film produced="2016">
+        <Title>Michael Moore in TrumpLand</Title>
+        <Director>Michael Moore</Director>
+        <Country>USA</Country>
+    </Film>
+    <Film produced="1985">
+        <Title>Brazil</Title>
+        <Director>Terry Gilliam</Director>
+        <Country>UK</Country>
+    </Film>
+    <Film produced="1979">
+        <Title>Life of Brian</Title>
+        <Director>Terry Jones</Director>
+        <Country>UK</Country>
+    </Film>
+    <Film produced="1935">
+        <Title>A Night at the Opera</Title>
+        <Director>Sam Wood</Director>
+        <Country>USA</Country>
+    </Film>
+    <Film produced="1940">
+        <Title>The Great Dictator</Title>
+        <Director>Charlie Chaplin</Director>
+        <Country>USA</Country>
+    </Film>
+    <Film produced="1988">
+        <Title>Amanece, que no es poco</Title>
+        <Director>José Luis Cuerda</Director>
+        <Country>Espanya</Country>
+    </Film>
+    <Film produced="1978">
+        <Title>La escopeta nacional</Title>
+        <Director>Luis García Berlanga</Director>
+        <Country>Espanya</Country>
+    </Film>
+</Films>
